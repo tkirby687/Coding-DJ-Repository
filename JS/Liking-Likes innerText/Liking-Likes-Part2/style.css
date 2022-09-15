@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; 
+    height: 800px;   
+    margin: 0 auto;     
+    font-family: sans-serif;    
+}
+
+
+
+ .nav {
+    width: 85%; 
+    height: 70px;   
+    margin: 0 auto;     
+    background-color: gray;
+    color: black;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    text-indent: 20%;
+    margin-left: 10%;    
+}
+
+ .header {
+    width: 100%;
+    height: 60px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12pt;
+}
+
+ .content {
+    width: 100%; 
+    height: 700px;    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile {
+    width: 20%; 
+    height: 300px;    
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.profile img {
+    width: 40%;
+}
+
+.right-content {
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+.follower {
+    width: 100%;
+    height: 170px;
+    border: 5px solid black;    
+    display: flex;        
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}    
+
+.likebtn {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    gap: 10%;
+    position: relative;
+    right: 20px;
+    left: 5px;    
+}
+
+.likebtn p {
+    text-indent: 50px;
+}
+
+.upper-content {   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    gap: 20%;
+}
+
+ .btn {
+    width: 100px;
+    height: 35px;
+    background-color: lightgreen;
+    color: black;
+    box-shadow: 4px 4px black;    
+ } 
+ 
+ .lower-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    margin: 0px 25px;
+    font-size: 16pt;
+ }

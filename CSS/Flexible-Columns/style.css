@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+
+
+}
+
+.row .col {
+   
+    border: 2px solid red;
+    padding: 10px;
+    flex: 1;
+    background-color: lightgreen;
+}
+
+.row .col-2 {
+   
+    border: 2px solid red;
+    padding: 10px;
+    flex: 2;
+    background-color: lightgreen;
+}
+
+.row .col-3 {
+   
+    border: 2px solid red;
+    padding: 10px;
+    flex: 5;
+    background-color: lightgreen;
+}

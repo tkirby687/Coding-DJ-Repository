@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; 
+    height: 800px;   
+    border: 2px solid red;
+    margin: 0 auto;    
+}
+
+.container .navbar {
+    width: 100%;     
+    margin-bottom: 1%;
+}
+
+.container .content {
+    width: 100;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;   
+    padding: 1%;
+    gap: 5%;
+}
+
+.container .content .connections {
+    width: 20%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.container .content .connections .requests {
+    width: 100%;    
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10pt;
+}
+
+.container .content .connections .current {
+    width: 100%;    
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10pt;
+}
+
+.container .content .personal {
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.container .content .personal .profile {
+    width: 100%;   
+    border: 2px solid red;
+}
+
+.container .content .personal .education {
+    width: 100%;    
+    border: 2px solid red;
+}
+
+.container .navbar .nav {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.container .navbar .nav .nav-title {
+    width: 20%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container .navbar .nav .nav-links {
+    width: 40%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;   
+}
+
+.container .navbar .nav .nav-links .active {
+    color: white;
+}
+
+.container .navbar .nav .nav-links .btn {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;    
+}
+
+ul {
+    list-style-type: none;    
+}
+
+li a {
+    text-decoration: none;
+    color: red;
+}
+
+.container .content .personal .profile .gen-info {
+    width: 100%;    
+    margin: 0 auto;    
+    font-family: sans-serif;     
+}
+
+.container .content .personal .profile .gen-info .banner {
+    width: 100%;          
+    background-image: linear-gradient(lightblue 50%, white 50%);    
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.container .content .personal .profile .gen-info .banner img {
+    width: 10%;
+    margin: 2%;    
+}
+
+.container .content .personal .profile .gen-info .name {    
+    font-size: 12pt;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.container .content .personal .profile .gen-info .address {    
+    display: flex;
+    font-size: 10pt;
+    gap: 0 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;    
+}
+
+.container .content .personal .profile .gen-info .address img {
+    width: 2%;    
+}
+
+.container .content .personal .profile .gen-info .skills {
+    font-size: 10pt;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.container .content .personal .profile .gen-info .links {
+    display: flex;
+    gap: 0 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.container .content .personal .profile .gen-info .links img {
+    width: 3%;    
+}
+
+.container .content .personal .profile .gen-info .links a {
+    font-size: 8pt;
+}
+
+.container .content .personal .education .gen-info {
+    width: 100%;    
+    margin: 0 auto;    
+    font-family: sans-serif; 
+}
+
+.container .content .personal .education .gen-info .banner {
+    width: 100%;          
+    background-color: gray;    
+    margin-bottom: 2%;
+    text-indent: 10px;   
+    font-size: 12pt;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.container .content .personal .education .gen-info .name {    
+    font-size: 10pt;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.container .content .personal .education .gen-info .address {    
+    display: flex;
+    font-size: 10pt;
+    gap: 0 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    color: blueviolet;   
+}
+
+.container .content .personal .education .gen-info .address img {
+    width: 2%;    
+}
+
+.container .content .personal .education .gen-info .skills {
+    font-size: 10pt;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;    
+}
+
+.container .content .personal .education .gen-info .links {
+    display: flex;
+    gap: 0 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    font-size: 10pt;
+    color: blueviolet;
+}
+
+.container .content .personal .education .gen-info .links img {
+    width: 3%;    
+}
+
+.container .content .personal .education .gen-info .links a {
+    font-size: 8pt;
+}
+
+.container .content .connections .requests .banner {
+    width: 100%;
+    height: 30px;
+    background-color: lightgreen;
+    font-size: 8pt;    
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+    
+}
+
+.container .content .connections .requests .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;    
+    background-color: white;
+    text-align: center;
+}
+
+.container .content .connections .requests .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+}
+
+.container .content .connections .requests .name1 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name1 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .requests .name1 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name1 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+}
+
+.container .content .connections .requests .name2 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name2 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name2 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .banner {
+    width: 100%;
+    height: 30px;
+    background-color: lightgreen;
+    font-size: 8pt;    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;    
+}
+
+.container .content .connections .current .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;    
+    background-color: white;
+    text-align: center;
+}
+
+.container .content .connections .current .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+}
+
+.container .content .connections .current .name1 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .current .name1 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .name1 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .current .name1 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    /* margin-bottom: 10px; */
+    
+}
+
+.container .content .connections .requests .name1 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name1 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .requests .name1 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name1 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+}
+
+.container .content .connections .requests .name2 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name2 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name2 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+/* .container .content .connections .current .banner {
+    width: 100%;
+    height: 30px;
+    background-color: lightgreen;
+    font-size: 8pt;    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;    
+} */
+
+.container .content .connections .current .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;    
+    background-color: white;
+    text-align: center;
+}
+
+.container .content .connections .requests .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .requests .name1 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name1 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .requests .name1 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name1 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .requests .name2 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .requests .name2 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .requests .name2 .select img {
+    width: 30%;
+}
+
+.container .content .connections .requests .name2 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+/* .container .content .connections .current .banner {
+    width: 100%;
+    height: 30px;
+    background-color: lightgreen;
+    font-size: 8pt;    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;    
+} */
+
+.container .content .connections .current .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;    
+    background-color: white;
+    text-align: center;
+}
+
+.container .content .connections .current .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .current .name1 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .current .name1 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .name1 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.container .content .connections .current .name1 .select img {
+    width: 30%;
+}
+
+.container .content .connections .current .name2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .current .name2 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .current .name2 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .name2 .select {
+    width: 40%;
+    height: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.container .content .connections .current .name2 .select img {
+    width: 30%;
+
+}
+
+.container .content .connections .current .name3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .current .name3 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .current .name3 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .name3 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .current .name3 .select img {
+    width: 30%;
+}
+
+.container .content .connections .current .name4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.container .content .connections .current .name4 .photo {
+    width: 60%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;    
+}
+
+.container .content .connections .current .name4 .photo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .content .connections .current .name4 .select {
+    width: 40%;
+    height: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .content .connections .current .name4 .select img {
+    width: 30%;
+}
+
+
+

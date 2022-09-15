@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;    
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.nav .nav-title {
+    width: 20%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.nav .nav-links {
+    width: 40%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;   
+}
+
+.nav .nav-links .active {
+    color: white;
+}
+
+.nav .nav-links .btn {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+ul {
+    list-style-type: none;    
+}
+
+li a {
+    text-decoration: none;
+    color: red;
+}

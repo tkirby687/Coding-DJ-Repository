@@ -1,0 +1,13 @@
+#userCirclePic {
+    height: 200px;
+    width: 200px;
+
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 4px 4px gray;
+}

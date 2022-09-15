@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This contains all objects -->
+    <div class="container">
+
+        <!-- Upper Banner "Network" -->
+        <div class="nav">
+            <h1>Network</h1>                
+        </div>
+
+        <!-- Created a block to center text called "Header" -->
+        <div class="header">
+            <h1>Your Feed</h1>
+        </div>
+                <!-- This is where Profile and Followers can be adjusted -->
+        <div class="content">
+            
+            <!-- Block created for User Profile -->
+            <div class="profile">
+                <img src="./icons/user-circle.png" alt="User Circle pic">
+                <a href="#">Add an Avatar</a>
+                <h1>James Doe</h1>               
+            </div>
+
+            <!-- This block was created to adjust Follower1,... -->
+            <div class="right-content">
+
+                <!-- Beginning of block for Follower1 -->
+                <div class="follower">
+
+                    <!-- Upper section of Follower1 -->
+                    <div class="upper-content">
+                        <h1>Neil M</h1>
+                        <div class="likebtn">
+                            <p class="count1">9 Like(s)</p>
+                            <button class="btn" onclick="likeFollower1()">Like</button>
+                        </div>                        
+                    </div>
+
+                    <!-- Lower section of Follower1 -->
+                    <div class="lower-content">
+                        <p>I just set up this new Discord bot, let me know what you all think. <span><a href="#">Link</a></span></p>
+                    </div>
+                </div>
+
+                <!-- Beginning of block for Follower2 -->
+                <div class="follower">
+
+                    <!-- Upper section of Follower2 -->
+                    <div class="upper-content">
+                        <h1>Nicole K</h1>
+                        <div class="likebtn">
+                            <p class="count2">12 Like(s)</p>
+                            <button class="btn" onclick="likeFollower2()">Like</button>
+                        </div>                        
+                    </div>
+
+                    <!-- Lower section of Follower2 -->
+                    <div class="lower-content">
+                        <p>Just finished my <span><a href="#">next comic</a></span>, check it out.</p>
+                    </div>
+                </div>
+
+                <!-- Beginning of block for Follower3 -->
+                <div class="follower">
+                    
+                    <!-- Upper section of Follower3 -->
+                    <div class="upper-content">
+                        <h1>Jim R</h1>
+                        <div class="likebtn">
+                            <p class="count3">9 Like(s)</p>
+                            <button class="btn" onclick="likeFollower3()">Like</button>
+                        </div>                        
+                    </div>
+                    
+                    <!-- Lower section of Follower2 -->
+                    <div class="lower-content">
+                        <p>I can't stop listening to the <span><a href="#">new album</a></span>. Who else is liking it?</p>                        
+                    </div>
+                </div>
+            </div>                
+        </div>   
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
